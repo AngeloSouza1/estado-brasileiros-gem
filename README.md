@@ -43,6 +43,6 @@ A gem "EstadosBrasileirosActiveRecord" é uma ferramenta desenvolvida para facil
   🔹 Documentação Clara: Instruções detalhadas para instalação e uso.
 
 
-### 👁️‍🗨️ Contribuições
+## 👁️‍🗨️ Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests no repositório do GitHub.
