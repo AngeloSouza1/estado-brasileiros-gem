@@ -36,12 +36,11 @@ A gem "EstadosBrasileirosActiveRecord" é uma ferramenta desenvolvida para facil
 
 ## 💡 Recursos
 
-
-    🔹 Acesso Rápido: Obtenha as siglas dos 26 estados e do Distrito Federal de forma rápida e eficiente.
+  🔹 Acesso Rápido: Obtenha as siglas dos 26 estados e do Distrito Federal de forma rápida e eficiente.
     
-    🔹 Integração com Rails: Projetada especificamente para aplicações Ruby on Rails, facilitando a implementação.
+  🔹 Integração com Rails: Projetada especificamente para aplicações Ruby on Rails, facilitando a implementação.
     
-    🔹 Documentação Clara: Instruções detalhadas para instalação e uso.
+  🔹 Documentação Clara: Instruções detalhadas para instalação e uso.
 
 
 ### 👁️‍🗨️ Contribuições
