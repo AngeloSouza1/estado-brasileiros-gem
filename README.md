@@ -1,31 +1,49 @@
 # EstadosBrasileirosActiveRecord
 
-TODO: Delete this and the text below, and describe your gem
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/estados_brasileiros_active_record`. To experiment with that code, run `bin/console` for an interactive prompt.
+### 💻 Sobre o projeto
+---
 
-## Installation
+<div align="justify">
+A gem "EstadosBrasileirosActiveRecord" é uma ferramenta desenvolvida para facilitar a consulta e o uso das siglas dos estados do Brasil em aplicações Ruby on Rails. Com foco na simplicidade e acessibilidade, essa gem permite que desenvolvedores integrem rapidamente informações geográficas em seus projetos, promovendo uma melhor organização de dados.
+</div>
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
+## 🚀 Instalação
 
-Install the gem and add to the application's Gemfile by executing:
+ 🔹Para instalar a gem, adicione a seguinte linha ao seu arquivo Gemfile: 
 
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+```ruby
+  gem 'estados_brasileiros_active_record', git: "https://github.com/AngeloSouza1/estado-brasileiros-gem.git"
+```
 
-If bundler is not being used to manage dependencies, install the gem by executing:
+🔹Em seguida, execute o comando:
 
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+```sh
+  bundle install
+```
 
-## Usage
+🔹Após a instalação, você deve executar o generator:
 
-TODO: Write usage instructions here
+```sh
+  rails g estados_brasileiros_active_record:install
+```
 
-## Development
+ 🔹E, por fim, execute a rake para importar os dados: 
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+```sh
+  rake importacao_estados:importar
+```  
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+## 💡 Recursos
 
-## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/estados_brasileiros_active_record.
+    🔹 Acesso Rápido: Obtenha as siglas dos 26 estados e do Distrito Federal de forma rápida e eficiente.
+    
+    🔹 Integração com Rails: Projetada especificamente para aplicações Ruby on Rails, facilitando a implementação.
+    
+    🔹 Documentação Clara: Instruções detalhadas para instalação e uso.
+
+
+### 👁️‍🗨️ Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests no repositório do GitHub.

@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = "Estados Brasileiros no Active Record"
   spec.description = "Cria um model Estado.rb e faz a importação dos estados brasileiros"
   spec.required_ruby_version = ">= 3.0.0"
-  # spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/AngeloSouza1/estado-brasileiros-gem/blob/main/README.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
