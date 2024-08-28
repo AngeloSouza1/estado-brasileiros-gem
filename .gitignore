@@ -8,3 +8,4 @@
 /tmp/
 database/*.sqlite3
 database/*.sqlite3*
+*.gem
