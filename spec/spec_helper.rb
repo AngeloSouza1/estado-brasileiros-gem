@@ -1,6 +1,6 @@
 require 'active_record'
 require 'estados_brasileiros_active_record'
-require_relative '../lib/estados_brasileiros_active_record/migrate/xxx_estados_brasileiros'
+require_relative '../lib/estados_brasileiros_active_record/migrate/xxx_create_estados_brasileiros'
 
 
 
@@ -95,4 +95,4 @@ ActiveRecord::Base.establish_connection(
   database: File.expand_path('../database/db.sqlite3', __dir__)
 )
 
-    CreateEstados.new.change
+CreateEstadosBrasileiros.new.change
