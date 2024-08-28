@@ -1,8 +1,8 @@
 # EstadosBrasileirosActiveRecord
 
 
-### 💻 Sobre o projeto
----
+## 💻 Sobre o projeto
+
 
 <div align="justify">
 A gem "EstadosBrasileirosActiveRecord" é uma ferramenta desenvolvida para facilitar a consulta e o uso das siglas dos estados do Brasil em aplicações Ruby on Rails. Com foco na simplicidade e acessibilidade, essa gem permite que desenvolvedores integrem rapidamente informações geográficas em seus projetos, promovendo uma melhor organização de dados.
@@ -42,7 +42,6 @@ A gem "EstadosBrasileirosActiveRecord" é uma ferramenta desenvolvida para facil
     
   🔹 Documentação Clara: Instruções detalhadas para instalação e uso.
 
----
 
 ### 👁️‍🗨️ Contribuições
 
